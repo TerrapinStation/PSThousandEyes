@@ -1,0 +1,22 @@
+PSTOPIC
+    about_PSThousandEyes
+
+SHORT DESCRIPTION
+    PSThousandEyes allows you to work with the ThousandEyes API through PowerShell functions
+
+LONG DESCRIPTION
+    PSThousandEyes allows you to work with the ThousandEyes API through PowerShell functions
+
+    You can find API documentation here:
+        http://developer.thousandeyes.com/
+
+DETAILED DESCRIPTION
+
+
+
+AUTHORIZATION
+
+
+
+OUTPUT
+
