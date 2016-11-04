@@ -16,14 +16,14 @@ Function Test-TEConfig {
     try{
         $Result = Invoke-TeRequest -Command 'status'
         $Result = New-Object PSObject -Property @{
-            'TE API Test' = 'Succeeded'
+            'IsTeApiAvailable' = $true
         }
 
         return $Result
 
     }catch{
         $Result = New-Object PSObject -Property @{
-            'TE API Test' = 'Failed'
+            'IsTeApiAvailable' = $false
         }
     }
 }
